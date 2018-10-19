@@ -1,8 +1,12 @@
-#hamburger {
-  max-height: 5vh;
+#hamburger-icon {
+  max-height: 6vh;
 }
 
-.nav-bar-container {
+#bustle-logo {
+  max-height: 7vh;
+}
+
+.navbar {
   max-height: 15%;
   background-color: wheat;
 }
