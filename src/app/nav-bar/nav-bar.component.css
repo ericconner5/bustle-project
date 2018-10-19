@@ -1,6 +1,8 @@
 .navbar {
-  max-height: 15%;
-  background-color: wheat;
+  margin: none;
+  min-height: 11vh;
+  background-color: white;
+  border-bottom: 1px solid rgba(50,50,50,.1);
 }
 
 #hamburger-icon {
@@ -21,5 +23,5 @@
 }
 
 #usa-logo, #uk-logo {
-  max-height: 7vh;
+  max-height: 5vh;
 }
