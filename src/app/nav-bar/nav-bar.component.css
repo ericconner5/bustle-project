@@ -15,30 +15,43 @@
 }
 
 #hamburger-container {
-  margin-left: 25%;
+  margin-left: 10%;
 }
 
 #bustle-logo {
-  max-height: 6vh;
+  max-height: 5vh;
+  width: 100px;
 }
 
 #bustle-logo-container {
-  margin: 21%;
+  margin-left: 33%;
 }
 
 #facebook-logo, #twitter-logo, #pinterest-logo, #instagram-logo, #youtube-logo, #podcast-logo {
-  max-height: 5vh;
+  max-height: 2.75vh;
+  opacity: 0.3;
 }
 
-#social-media-container {
+#navbar-item-facebook-logo {
+  margin-left: 10%;
+}
 
-  margin-right: 20%;
+#navbar-item-search-icon {
+  margin-left: 5%;
+}
+
+.navbar-media-logos {
+  margin-left: 1%;
 }
 
 #search-icon {
-  max-height: 6vh;
+  max-height: 3.5vh;
 }
 
 #usa-logo, #uk-logo {
-  max-height: 5vh;
+  max-height: 3vh;
+}
+
+#navbar-item-usa-uk-logo {
+  margin-left: 2%;
 }
