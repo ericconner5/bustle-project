@@ -1,12 +1,25 @@
+.navbar {
+  max-height: 15%;
+  background-color: wheat;
+}
+
 #hamburger-icon {
   max-height: 6vh;
 }
 
 #bustle-logo {
   max-height: 7vh;
+
 }
 
-.navbar {
-  max-height: 15%;
-  background-color: wheat;
+#facebook-logo, #twitter-logo, #pinterest-logo, #instagram-logo, #youtube-logo, #podcast-logo {
+  max-height: 5vh;
+}
+
+#search-icon {
+  max-height: 6vh;
+}
+
+#usa-logo, #uk-logo {
+  max-height: 7vh;
 }
