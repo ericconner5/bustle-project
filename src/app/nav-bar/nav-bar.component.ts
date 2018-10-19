@@ -7,10 +7,9 @@ import { Component, OnInit } from '@angular/core';
   template: `
     <nav class="navbar">
 
-      <!-- logo -->
       <div class="navbar-brand">
         <a class="navbar-item">
-          <img src="assets/hamburger-icon.png">
+          <img id="hamburger" src="assets/images/hamburger-icon.png">
         </a>
       </div>
     </nav>
