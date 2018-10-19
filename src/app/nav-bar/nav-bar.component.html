@@ -35,4 +35,10 @@
   <a id="navbar-item-usa-uk-logo">
     <img id="uk-logo" src="assets/images/uk-logo.png">
   </a>
+
+  <div ng-app="FormApp" ng-controller="myController" max-width="3vh;" width="3vh;" >
+      <input ng-show="ShowDown" type="image" style="width:3vh; height:3vh;" src="assets/images/usa-logo.png" ng-click="ShowHide()"/>
+      <input ng-show="ShowUp" type="image" style="width:3vh; height:3vh;" src="assets/images/uk-logo.png" ng-click="ShowHide()"/>
+  </div>
+
 </nav>

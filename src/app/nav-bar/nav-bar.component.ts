@@ -4,7 +4,7 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-nav-bar',
   templateUrl: './nav-bar.component.html',
   styleUrls: ['./nav-bar.component.css']
-  // template: 
+  // template:
   // styles: []
 })
 export class NavBarComponent implements OnInit {
@@ -20,10 +20,15 @@ export class NavBarComponent implements OnInit {
 }
 
 
-// export class HamburgerComponent {
-//   hamburgerComponent = {
-//     constructor(public description: string) {
-//     icon: "placeholder text"
+// <script type="text/javascript">
+// var app = angular.module('FormApp', [])
+// app.controller('myController', function ($scope) {
+//   $scope.ShowDown = true;
+//   $scope.ShowUp = false;
+//
+//   $scope.ShowHide = function () {
+//     $scope.ShowDown = $scope.ShowDown ? false : true;
+//     $scope.ShowUp = $scope.ShowUp ? false : true;
 //   }
-//   }
-// }
+// });
+// </script>
