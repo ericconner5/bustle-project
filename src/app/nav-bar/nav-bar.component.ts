@@ -18,17 +18,3 @@ export class NavBarComponent implements OnInit {
   }
 
 }
-
-
-// <script type="text/javascript">
-// var app = angular.module('FormApp', [])
-// app.controller('myController', function ($scope) {
-//   $scope.ShowDown = true;
-//   $scope.ShowUp = false;
-//
-//   $scope.ShowHide = function () {
-//     $scope.ShowDown = $scope.ShowDown ? false : true;
-//     $scope.ShowUp = $scope.ShowUp ? false : true;
-//   }
-// });
-// </script>

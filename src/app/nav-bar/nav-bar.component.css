@@ -1,21 +1,30 @@
 .navbar {
   margin: none;
-  min-height: 11vh;
-  max-height: 11vh;
+  height: 10vh;
+  /* max-width: 100%; */
+  /* background-color: white; */
+  /* border-bottom: 1px solid rgba(50,50,50,.1); */
+  /* display: flex; */
+
+  /* align-items: center; */
+}
+
+.nav-bar-items {
+  margin: 10%, 0, 10%, 0;
+  /* height: 5vh; */
   max-width: 100%;
   background-color: white;
   border-bottom: 1px solid rgba(50,50,50,.1);
   display: flex;
-
-  align-items: center;
+    align-items: center;
 }
 
 #hamburger-icon {
-  max-height: 6vh;
+  max-height: 2.5vh;
 }
 
 #hamburger-container {
-  margin-left: 10%;
+  margin-left: 26.5%;
 }
 
 #bustle-logo {
@@ -24,7 +33,8 @@
 }
 
 #bustle-logo-container {
-  margin-left: 33%;
+  display: block;
+  margin: 0 auto;
 }
 
 #facebook-logo, #twitter-logo, #pinterest-logo, #instagram-logo, #youtube-logo, #podcast-logo {
