@@ -23,6 +23,9 @@ import { PrivacyComponent } from './privacy/privacy.component';
 import { DmcaComponent } from './dmca/dmca.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 
+import { routing } from './app.routing';
+
+
 
 @NgModule({
   declarations: [
@@ -48,7 +51,10 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
     ContactUsComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    // FormsModule,
+    // HttpModule,  //these get turned back on soon
+    routing
   ],
   providers: [],
   bootstrap: [AppComponent]
