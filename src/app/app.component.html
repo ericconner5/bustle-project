@@ -8,8 +8,11 @@
 
 
 <h3>{{currentFocus}}</h3>
-<app-articles [childArticle]=masterArticle> where the hell is anything </app-articles>
+<!-- <app-articles [childArticle]=masterArticle> where the hell is anything </app-articles> -->
 <div class="container">
   <h1>{{title}}</h1>
   <router-outlet></router-outlet>
 </div>
+<ul>
+  <li *ngFor="let currentArticle of articles">{{currentArticle}}</li>
+</ul>

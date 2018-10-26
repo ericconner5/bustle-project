@@ -1,5 +1,6 @@
 import { Component, Input, Output, EventEmitter } from '@angular/core';
 import { Article } from './models/article.model';
+// import { articles } from '../mock-articles.json';
 
 @Component({
   selector: 'app-root',
@@ -9,7 +10,9 @@ import { Article } from './models/article.model';
 
 export class AppComponent {
   title = "Bustle"
-  currentFocus: string = 'bustle article app.component.ts'
+  articles: Article[] = [
+    new Article('Image', 'Description', 'Author')
+  ]
   @Input() childArticle: Article[];
 };
 
