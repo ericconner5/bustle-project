@@ -4,12 +4,6 @@ import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 import { AppModule } from './app/app.module';
 import { environment } from './environments/environment';
 
-
-
-import { NavBarComponent } from './app/nav-bar/nav-bar.component';
-import { AppComponent} from './app/app.component';
-
-
 if (environment.production) {
   enableProdMode();
 }

@@ -14,10 +14,7 @@ export class NavBarComponent implements OnInit {
   currentRoute: string = this.router.url;
 
   constructor(private router: Router) { }
-    // public images = [
-    //   image: "assets.hamburger-icon.png",
-    // ]
-   
+
 
   ngOnInit() {
   }

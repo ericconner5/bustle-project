@@ -28,6 +28,7 @@ import { DmcaComponent } from './dmca/dmca.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 
 import { routing } from './app.routing';
+import { ArticlesComponent } from './articles/articles.component';
 
 
 
@@ -52,7 +53,8 @@ import { routing } from './app.routing';
     TermsComponent,
     PrivacyComponent,
     DmcaComponent,
-    ContactUsComponent
+    ContactUsComponent,
+    ArticlesComponent
   ],
   imports: [
     BrowserModule,
