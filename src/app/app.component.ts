@@ -10,34 +10,34 @@ import { Component } from '@angular/core';
 export class AppComponent {
   currentFocus: string = 'Bustle Site';
   firstArticle = {
-    image: '',
-    description: '',
+    image: 'image goes here',
+    description: 'description goes here',
     author: 'BY AUTHOR 1'
   };
-  secondArticle = {
-    image: '',
-    description: '',
-    author: 'BY AUTHOR 1'
-  };
-  thridArticle = {
-    image: '',
-    description: '',
-    author: 'BY AUTHOR 1'
-  };
-  forthArticle = {
-    image: '',
-    description: '',
-    author: 'BY AUTHOR 1'
-  };
-  fifthArticle = {
-    image: '',
-    description: '',
-    author: 'BY AUTHOR 1'
-  };
-  sixthArticle = {
-    image: '',
-    description: '',
-    author: 'BY AUTHOR 1'
-  }
+  // secondArticle = {
+  //   image: '',
+  //   description: '',
+  //   author: 'BY AUTHOR 1'
+  // };
+  // thridArticle = {
+  //   image: '',
+  //   description: '',
+  //   author: 'BY AUTHOR 1'
+  // };
+  // forthArticle = {
+  //   image: '',
+  //   description: '',
+  //   author: 'BY AUTHOR 1'
+  // };
+  // fifthArticle = {
+  //   image: '',
+  //   description: '',
+  //   author: 'BY AUTHOR 1'
+  // };
+  // sixthArticle = {
+  //   image: '',
+  //   description: '',
+  //   author: 'BY AUTHOR 1'
+  // }
 
 }
