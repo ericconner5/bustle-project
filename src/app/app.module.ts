@@ -5,8 +5,10 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
+import { routing } from './app.routing';
 
 import { AppComponent } from './app.component';
+import { ArticlesComponent } from './articles/articles.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { NewsComponent } from './news/news.component';
 import { EntertainmentComponent } from './entertainment/entertainment.component';
@@ -27,8 +29,6 @@ import { PrivacyComponent } from './privacy/privacy.component';
 import { DmcaComponent } from './dmca/dmca.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 
-import { routing } from './app.routing';
-import { ArticlesComponent } from './articles/articles.component';
 
 
 
