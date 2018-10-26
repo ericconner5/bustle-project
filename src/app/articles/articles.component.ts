@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { Article } from '../models/article.model';
 
 @Component({
@@ -7,6 +7,7 @@ import { Article } from '../models/article.model';
   styleUrls: ['./articles.component.css']
 })
 export class ArticlesComponent implements OnInit {
+  @Input() childArticle: Article[];
   articles: Article[] = [
     new Article ('image', 'description', 'author')
   ]

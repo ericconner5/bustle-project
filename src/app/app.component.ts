@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { Article } from './models/article.model';
 
 @Component({
@@ -9,9 +9,7 @@ import { Article } from './models/article.model';
 
 export class AppComponent {
   currentFocus: string = 'bustle article app.component.ts'
-  // articles: Article[] = [
-  //   new Article('image', 'description', 'author')
-  // ]
+  @Input() childArticle: Article[];
 };
 
 
