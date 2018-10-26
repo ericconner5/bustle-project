@@ -1,0 +1,11 @@
+{
+  "database": {
+    "rules": "database.rules.json"
+  },
+  "hosting": {
+    "public": "dist"
+  }
+}
+
+
+/* this was the original rules part: "firestore.rules", */
