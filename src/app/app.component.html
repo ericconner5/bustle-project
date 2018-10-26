@@ -1,16 +1,21 @@
-<app-nav-bar><app-nav-bar>
+<!-- <app-nav-bar><app-nav-bar> -->
 <br>
 
 
 <div class="container">
   <h1>{{title}}</h1>
-  <router-outlet></router-outlet>
 </div>
 
-<ul>
+<!-- <ul>
   <li *ngFor="let currentArticle of articles">{{currentArticle.description}}</li>
+</ul>  use this when the component is working-->
+
+<ul>
+  <li>{{firstArticle.description}}</li>
 </ul>
 
 
 <h1>where is this</h1>
 <h1>{{currentFocus}}</h1>
+
+<!-- <router-outlet></router-outlet> use this after setting up router-->

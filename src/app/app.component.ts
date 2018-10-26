@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
-// import { NavBarComponent} from 'nav-bar.component'; this may need to be used??
+import { NavBarComponent } from './nav-bar/nav-bar.component';
+// import { NavBarComponent} from 'nav-bar.component'; may be needed
+
 
 @Component({
   selector: 'app-root',
@@ -8,7 +10,7 @@ import { Component } from '@angular/core';
 })
 
 export class AppComponent {
-  currentFocus: string = 'Bustle Site';
+  currentFocus: string = 'Bustle Site Article';
   firstArticle = {
     image: 'image goes here',
     description: 'description goes here',
