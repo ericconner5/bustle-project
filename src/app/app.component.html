@@ -6,3 +6,7 @@
   <h1>{{title}}</h1>
   <router-outlet></router-outlet>
 </div>
+
+<ul>
+  <li *ngFor="let currentArticle of articles">{{currentArticle.description}}</li>
+</ul>
