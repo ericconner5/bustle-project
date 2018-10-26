@@ -8,11 +8,17 @@ import { Article } from './models/article.model';
 })
 
 export class AppComponent {
-  title: "Bustle AppComponent Title"
-  currentFocus: string = 'Bustle Site Article';
-  firstArticle = {
-    image: 'image goes here',
-    description: 'description goes here',
-    author: 'by author name'
-  };
-}
+  currentFocus: string = 'bustle article app.component.ts'
+  // articles: Article[] = [
+  //   new Article('image', 'description', 'author')
+  // ]
+};
+
+
+// this was in the class above
+// title: "Bustle AppComponent Title"
+// currentFocus: string = 'Bustle Site Article';
+// firstArticle = {
+//   image: 'image goes here',
+//   description: 'description goes here',
+//   author: 'by author name'

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Article } from '../models/article.model';
 
 @Component({
   selector: 'app-articles',
@@ -6,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./articles.component.css']
 })
 export class ArticlesComponent implements OnInit {
+  articles: Article[] = [
+    new Article ('image', 'description', 'author')
+  ]
 
   constructor() { }
 
