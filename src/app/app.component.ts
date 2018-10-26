@@ -8,6 +8,7 @@ import { Article } from './models/article.model';
 })
 
 export class AppComponent {
+  title = "Bustle"
   currentFocus: string = 'bustle article app.component.ts'
   @Input() childArticle: Article[];
 };
