@@ -1,5 +1,9 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+// import { AngularFireModule } from 'angularfire2';
+// import { AngularFireDatabaseModule } from 'angularfire2/database';
+import { FormsModule } from '@angular/forms';
+import { HttpModule } from '@angular/http';
 
 
 import { AppComponent } from './app.component';
@@ -52,8 +56,8 @@ import { routing } from './app.routing';
   ],
   imports: [
     BrowserModule,
-    // FormsModule,
-    // HttpModule,  //these get turned back on soon
+    FormsModule,
+    HttpModule,
     routing
   ],
   providers: [],

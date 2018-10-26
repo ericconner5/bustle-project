@@ -6,16 +6,16 @@
   <h1>{{title}}</h1>
 </div>
 
-<!-- <ul>
-  <li *ngFor="let currentArticle of articles">{{currentArticle.description}}</li>
-</ul>  use this when the component is working-->
-
 <ul>
-  <li>{{firstArticle.description}}</li>
+  <li *ngFor="let currentArticle of articles">{{currentArticle.image}}{{currentArticle.description}}{{currentFocus.author}}</li>
 </ul>
+<!-- use this when the component is working -->
 
 
-<h1>where is this</h1>
+<!-- <ul>
+  <li>{{firstArticle.description}}</li>
+</ul> -->
+
 <h1>{{currentFocus}}</h1>
 
 <!-- <router-outlet></router-outlet> use this after setting up router-->

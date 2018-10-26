@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
+
+import { routing } from '../app.routing';
 
 @Component({
   selector: 'app-nav-bar',
@@ -8,11 +11,13 @@ import { Component, OnInit } from '@angular/core';
   // styles: []
 })
 export class NavBarComponent implements OnInit {
-  constructor() {
+  currentRoute: string = this.router.url;
+
+  constructor(private router: Router) { }
     // public images = [
     //   image: "assets.hamburger-icon.png",
     // ]
-   }
+   
 
   ngOnInit() {
   }

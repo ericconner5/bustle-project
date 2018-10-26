@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { NavBarComponent } from './nav-bar/nav-bar.component';
-// import { NavBarComponent} from 'nav-bar.component'; may be needed
+
+// import { NavBarComponent } from './nav-bar/nav-bar.component';
 
 
 @Component({
