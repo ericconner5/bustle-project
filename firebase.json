@@ -3,9 +3,7 @@
     "rules": "database.rules.json"
   },
   "hosting": {
-    "public": "dist"
+    "public": "dist",
+
   }
 }
-
-
-/* this was the original rules part: "firestore.rules", */
