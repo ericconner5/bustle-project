@@ -1,6 +1,7 @@
 import { Component, Input, Output, EventEmitter } from '@angular/core';
 import { Article } from './models/article.model';
-// import { articles } from '../mock-articles.json';
+import { FirebaseListObservable } from 'angularfire2/database';
+
 
 @Component({
   selector: 'app-root',
@@ -9,10 +10,12 @@ import { Article } from './models/article.model';
 })
 
 export class AppComponent {
-  title = "Bustle"
-  articles: Article[] = [
-    new Article('Image', 'Description', 'Author')
-  ]
+  articles: FirebaseListObservable<any[]>;
+
+  // title = "Bustle"
+  // articles: Article[] = [
+  //   new Article('Image', 'Description', 'Author')
+  // ]
   @Input() childArticle: Article[];
 };
 

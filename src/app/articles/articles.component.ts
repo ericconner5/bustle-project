@@ -1,6 +1,7 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { Article } from '../models/article.model';
-// import { articles } from '../mock-articles.json';
+import { ARTICLES } from '../../../mock-articles';
+import { AngularFireDatabase, FirebaseListObservable } from 'angularfire2/database';
 
 @Component({
   selector: 'app-articles',
@@ -9,19 +10,19 @@ import { Article } from '../models/article.model';
 })
 export class ArticlesComponent implements OnInit {
   // @Input() childArticle: Article[];
-  articles: Article[] = [
-    new Article ('Image link here', 'description goes here', 'author goes here'),
-    new Article ('Image link here', 'description goes here', 'author goes here'),
-    new Article ('Image link here', 'description goes here', 'author goes here'),
-    new Article ('Image link here', 'description goes here', 'author goes here'),
-    new Article ('Image link here', 'description goes here', 'author goes here')
-  ]
+  articles: FirebaseListObservable<any[]>;
 
-  constructor() { }
+
+  constructor(private database: AngularFireDatabase) {
+  this.articles = database.list('albums');
+  }
 
   ngOnInit() {
   }
 
+  getAlbums(){
+  return this.articles;
+}
 }
 
 

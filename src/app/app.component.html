@@ -1,18 +1,13 @@
 <app-nav-bar></app-nav-bar>
 
 
-<!-- <ul>
-  <li *ngFor="let currentArticle of articles">{{currentArticle.image}}{{currentArticle.description}}{{currentFocus.author}}</li>
-</ul> -->
-<!-- use this when the component is working -->
-
-
 <h3>{{currentFocus}}</h3>
-<!-- <app-articles [childArticle]=masterArticle> where the hell is anything </app-articles> -->
+
 <div class="container">
   <h1>{{title}}</h1>
   <router-outlet></router-outlet>
 </div>
+<app-articles></app-articles>
 <ul>
-  <li *ngFor="let currentArticle of articles">{{currentArticle}}</li>
+  <li *ngFor="let currentArticle of articles | async">{{currentArticle.image}}{{currentArticle.description}}{{currentFocus.author}}</li>
 </ul>

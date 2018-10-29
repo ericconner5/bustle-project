@@ -43,6 +43,18 @@ Components to build:
 Clone Bustle Project Repo
 Install npm dependencies by running `npm install` command in terminal
 Open index.html in a web browser (Chrome Preferred)
+Set up the firebase configs by adding this file: `/src/app/api-keys.ts`
+It will need to contain everything inside the script tags from firebase in your dashboard
+see below:
+`export const masterFirebaseConfig = {
+  apiKey: "XXXXX",
+  authDomain: "XXXXX.firebaseapp.com",
+  databaseURL: "https://XXXXX.firebaseio.com",
+  projectId: "XXXXX",
+  storageBucket: "XXXXX.appspot.com",
+  messagingSenderId: "XXXXX"
+};`
+You will need to obtain a firebase key and other credentials and fill this in with those values.
 </ul>
 
 ## Development server

@@ -1,10 +1,16 @@
-{ "articles": [{
-  articleImage: "Image here",
-  articleDescription: "Description here",
-  articleAuthor: "Author here"
-  }, {
-    articleImage: "Image here again",
-    articleDescription: "Description here again",
-    articleAuthor: "Author here again"
-  }]
+
+{
+  "articles":
+  [
+    {
+      "articleImage": "img url goes here",
+      "articleDescription": "description of article goes here",
+      "articleAuthor": "the authors name goes here"
+    },
+    {
+      "articleImage": "2nd img url goes here",
+      "articleDescription": "2nd description of article goes here",
+      "articleAuthor": "2nd authors name goes here"
+    }
+  ]
 }
